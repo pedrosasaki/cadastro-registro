@@ -1,0 +1,14 @@
+# Dependências do projeto
+# Instaladas automaticamente pelo Streamlit Community Cloud.
+#
+# Por que a lista é curta: o acesso ao banco é feito com recursos que já
+# vêm no Python (urllib), sem bibliotecas extras. Menos dependências =
+# menos chance de conflito de versão no deploy.
+#
+# IMPORTANTE: streamlit e pandas ficam SEM limite máximo de versão.
+# Se pedirmos uma faixa que exclui a versão que o Cloud já usa, o pip
+# tenta fazer downgrade e o deploy quebra ("Oh no. Error running app").
+
+streamlit>=1.50
+pandas>=2.0
+python-dotenv>=1.0
