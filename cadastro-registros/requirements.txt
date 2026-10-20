@@ -1,0 +1,7 @@
+# Dependências do projeto (instaladas automaticamente pelo Streamlit Cloud)
+# Versões com faixa segura: pegam correções sem quebrar o código.
+
+streamlit>=1.50,<2.0
+supabase>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+pandas>=2.0,<3.0
